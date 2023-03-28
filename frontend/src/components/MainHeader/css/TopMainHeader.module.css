@@ -1,0 +1,55 @@
+.Logo {
+  /* margin-left: 1.5rem; */
+}
+
+.justify_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.justify_between .inputPosition {
+  /* margin-left: 2rem; */
+  position: relative;
+  width: 390px;
+}
+
+.justify_between .inputPosition .Search_input {
+  height: 40px;
+  width: 100%;
+  border-radius: 9px;
+  border: #7f5feb solid 2px;
+  padding-left: 10px;
+  font-size: 15px;
+  box-shadow: 0 0px 4px #7f5feb;
+}
+
+.justify_between .inputPosition .Search_input:focus {
+  outline: none;
+  border: #5326e7 solid 2px;
+}
+
+.justify_between .inputPosition .Search_input:hover {
+  border: #5326e7 solid 2.5px;
+}
+
+.justify_between .inputPosition .inputglass {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 13px;
+  right: 2px;
+  margin: 0;
+  fill: #7f5feb;
+  cursor: pointer;
+}
+
+.justify_between .inputPosition .inputglass:hover {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 13px;
+  right: 2px;
+  margin: 0;
+  fill: #5326e7;
+}

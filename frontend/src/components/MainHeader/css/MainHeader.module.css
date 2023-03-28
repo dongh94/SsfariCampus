@@ -1,0 +1,143 @@
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+
+.HeaderCompany {
+  font-family: "nanumsquare";
+  min-width: 100%;
+  height: 10rem;
+  background-color: #ffffff;
+  padding: 0;
+  padding-top: 2rem;
+}
+
+.header {
+  font-family: "nanumsquare";
+  min-width: 100%;
+  height: 6rem;
+  background-color: #ffffff;
+  padding: 0;
+  padding-top: 2rem;
+  /* box-shadow: 0 10px 4px -8px rgb(0 0 0 / 7%); */
+}
+.header hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 12px 10px -10px rgb(0 0 0 / 7%) inset;
+  min-width: 1080px;
+}
+
+.header nav {
+  margin: auto;
+  width: 1080px;
+  height: 100%;
+
+  /* min-width: 1300px; */
+}
+
+.header ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.header li {
+  text-align: right;
+  padding: 0px;
+  /* width: 5rem; */
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+}
+
+.header ul li button {
+  font-family: "nanumsquare";
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #5d33e6;
+  padding-bottom: 0.25rem;
+  /* border-bottom: 4px solid #95bcf0; */
+}
+
+.header button:hover,
+.header button:active,
+.header button.active {
+  color: #5d33e6;
+  padding-bottom: 0.25rem;
+  /* border-bottom: 4px solid #95bcf0; */
+}
+
+.HeaderCompany hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 12px 10px -10px rgb(0 0 0 / 7%) inset;
+  min-width: 1080px;
+}
+
+.HeaderCompany nav {
+  margin: auto;
+  width: 1080px;
+  height: 100%;
+
+  /* min-width: 1300px; */
+}
+
+.HeaderCompany ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.HeaderCompany li {
+  text-align: right;
+  padding: 0px;
+  /* width: 5rem; */
+}
+
+.HeaderCompany a {
+  color: black;
+  text-decoration: none;
+}
+
+.HeaderCompany ul li button {
+  font-family: "nanumsquare";
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.HeaderCompany a:hover,
+.HeaderCompany a:active,
+.HeaderCompany a.active {
+  /* color: #5d33e6; */
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+  /* border-bottom: 4px solid #95bcf0; */
+}
+
+.HeaderCompany button:hover,
+.HeaderCompany button:active,
+.HeaderCompany button.active {
+  /* color: #5d33e6; */
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+  /* border-bottom: 4px solid #95bcf0; */
+}

@@ -1,0 +1,21 @@
+.UserInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 100%;
+  min-width: 1080px;
+  margin-bottom: 4rem;
+  background-color: #e9e2ff;
+}
+
+.SellerInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 100%;
+  min-width: 1080px;
+  margin-bottom: 4rem;
+  background-color: lightgray;
+}

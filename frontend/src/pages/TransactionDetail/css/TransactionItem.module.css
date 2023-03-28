@@ -1,0 +1,23 @@
+.Transaction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Transaction .Transaction_date{
+  margin-left: 3rem;
+  text-align: right;
+}
+
+.Transaction .TransactionCheck{
+  display: flex;
+}
+
+.Transaction .TransactionCheck div{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.Transaction .TransactionCost{
+  margin-right: 3rem;
+}

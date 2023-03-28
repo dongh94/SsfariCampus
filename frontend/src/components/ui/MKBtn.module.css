@@ -1,0 +1,17 @@
+.MKBtn{
+  border:0;
+  background: black;
+  color: #dfdeee;
+  border-radius: 10px;
+  width:220px;
+  height: 49px;
+  font-size: 16px;
+
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 3rem;
+  display:block;
+}
+.MKBtn:hover {
+  background: #3e3e41;
+}

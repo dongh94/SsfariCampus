@@ -1,0 +1,14 @@
+.Login_ul {
+  width: 250px;
+}
+
+.Login_ul .Logout {
+  /* margin-left:20px; */
+  cursor: pointer;
+}
+
+.Login_ul .username {
+  margin-left: 50px;
+  white-space: nowrap;
+  cursor: pointer;
+}

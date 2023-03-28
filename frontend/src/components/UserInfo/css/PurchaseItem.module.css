@@ -1,0 +1,39 @@
+.PurchaseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px 10px 20px;
+}
+
+.PurchaseItem .PurchaseImg {
+  cursor: pointer;
+}
+.PurchaseItem .PurchaseImg .PurchaseImgSize {
+  width: 140px;
+
+  height: 160px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+.PurchaseItem .PurchaseTitle {
+  width: 400px;
+  /* margin-right: 10rem; */
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.PurchaseName {
+  font-size: 20px;
+  font-weight: bold;
+}
+.PurchaseCheck {
+  width: 80px;
+}
+.PurchaseStatus {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  color: #7f5feb;
+  font-weight: bold;
+}

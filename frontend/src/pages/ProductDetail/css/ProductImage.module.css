@@ -1,0 +1,13 @@
+.ProductImage{
+  margin-top : 80px;
+  margin-bottom: 70px;
+}
+
+.ProductImage h1{
+  font-size: 3em;
+  text-align: center;
+}
+
+.ProductImage .ProductImg{
+  width:1050px;
+}

@@ -1,0 +1,17 @@
+.XsPBtn {
+  border:0;
+  background: #7f5feb;
+  color: #dfdeee;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+
+  transition: 0.3s;
+  cursor: pointer;
+  display:block;
+  }
+
+.XsPBtn:hover{
+  background: #5d33e6;
+  }

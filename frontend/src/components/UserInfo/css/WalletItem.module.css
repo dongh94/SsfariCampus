@@ -1,0 +1,37 @@
+.LoadingCircle {
+  margin-top: 20px;
+}
+.WalletItem {
+  width: 655px;
+  height: 200px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 2px 6px grey;
+}
+
+.WalletItem .WalletTitle {
+  padding-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  display: flex;
+}
+
+.WalletItem .WalletTitle h2,
+.WalletItem .WalletTitle h3 {
+  display: inline;
+  margin: 0px;
+}
+
+.WalletItem .WalletTitle h3 {
+  cursor: pointer;
+}
+.WalletItem .WalletTitle .walletInfo {
+  margin-top: 6px;
+  cursor: pointer;
+}
+.WalletItem .WalletTitle .walletInfo:active,
+.WalletItem .WalletTitle .walletInfo:hover,
+.WalletItem .WalletTitle .walletInfo:focus {
+  outline: none;
+}

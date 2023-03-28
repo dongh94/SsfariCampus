@@ -1,0 +1,23 @@
+.notion {
+  /* margin-top: 10rem; */
+  width: 1080px;
+  height: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #efefef;
+
+  /* text-align: center; */
+}
+.notionbox {
+  padding: 2rem 4rem 2rem 4rem;
+}
+.notionbox h1 {
+  padding-bottom: 20px;
+}
+.notionbox div {
+}
+.notionbox p {
+  margin-left: 27px;
+  font-size: 20px;
+  padding-bottom: 25px;
+}

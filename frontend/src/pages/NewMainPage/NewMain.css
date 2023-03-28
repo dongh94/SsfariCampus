@@ -1,0 +1,183 @@
+@keyframes slidein {
+  from {
+    margin-left: 68%;
+    margin-top: 20%;
+  }
+
+  to {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+@keyframes slideout {
+  from {
+    margin-left: 0%;
+    margin-top: 40%;
+  }
+
+  to {
+    margin-left: 68%;
+    margin-top: 30%;
+  }
+}
+@keyframes slidetop {
+  from {
+    margin-top: 0%;
+  }
+
+  to {
+    margin-top: 100%;
+  }
+}
+.animation_img {
+  position: absolute;
+  animation-duration: 6s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: white;
+}
+
+.animation_img1 {
+  position: absolute;
+  animation-duration: 6s;
+  animation-name: slideout;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: white;
+}
+.animation_img2 {
+  animation-duration: 3s;
+  animation-name: slideout;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img_control {
+  display: flex;
+  justify-content: flex-end;
+}
+.banner {
+  width: 900px;
+  height: 250px;
+}
+
+.center_main {
+  display: flex;
+  justify-content: center;
+}
+.img_control2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.groom {
+  /* top: -30px; */
+  width: 250px;
+  height: 300px;
+}
+.whole {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  /* background-image: url("https://newsroom-prd-data.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2017/06/ICT_%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8_01.png"); */
+  /* opacity: 0.8; */
+  /* background-repeat: no-repeat; */
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.center_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 290px;
+  left: 400px;
+
+  animation: rotate_image 3s ease-in-out;
+  /* transform-origin: 50% 50%; */
+  /* transform: transate(-50%, -50%); */
+}
+.img1 {
+  position: absolute;
+  top: -20px;
+  width: 250px;
+  height: 200px;
+}
+.img2 {
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  width: 250px;
+  height: 200px;
+}
+.center_img {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1; */
+}
+
+/* 여기까지 */
+
+.main_back {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("../../assets/배경.png");
+
+  object-fit: cover;
+  /* filter: brightness(0.8); */
+  /* opacity: 0.8; */
+}
+/* .main_back::before {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url("../../assets/야채가게.jpg");
+  opacity: 0.4;
+  background-size: cover;
+} */
+.whole_box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo_center {
+  display: flex;
+  justify-content: center;
+}
+.main_new {
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.panda {
+  width: 200px;
+  height: 270px;
+  /* top: 340px;
+  right: 335px;  */
+}
+.saza {
+  /* 
+  left: 325px;
+  top: 370px; */
+  width: 200px;
+}
+.last {
+  display: flex;
+  justify-content: center;
+}

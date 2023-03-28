@@ -1,0 +1,10 @@
+.WalletCarouselItem h2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.WalletCarouselItem .btn_div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

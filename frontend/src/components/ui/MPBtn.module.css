@@ -1,0 +1,18 @@
+.MPBtn{
+    border:0;
+    background: #7f5feb;
+    color: #dfdeee;
+    border-radius: 10px;
+    width:220px;
+    height: 49px;
+    font-size: 16px;
+
+    transition: 0.3s;
+    cursor: pointer;
+    margin:auto;
+    margin-top: 3rem;
+    display:block;
+}
+.MPBtn:hover {
+    background: #5d33e6;
+  }

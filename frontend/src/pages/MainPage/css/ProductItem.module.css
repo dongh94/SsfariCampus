@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* .ProductList_title{
+    margin-top: 100px;
+    font-family:'GangwonEdu_OTFBoldA';
+    font-size: 50px;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+.App {
+    width : 100%;
+    margin : 0 auto;
+    margin-bottom: 100px;
+}
+.border_out{
+    border: 1px solid #fff;
+    background-color:  black;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 400px;
+} 
+*/
+.card{
+    width:230px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card .card_top img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.card .card_top{
+    width : 100%;
+    height: 300px;
+}
+.card .card_bottom{
+    text-align: left;
+    padding : 14px 10px 0px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+
+}
+
+.card .card_bottom h1{
+    font-size : 16px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.card .card_bottom h3{
+    font-size : 16px;
+    margin: 0px;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.SWBtnPBrd {
+    background:  #ffffff;
+    color: #7f5feb;
+    border-radius: 7px;
+    border:2px solid#7f5feb ;
+    width:120px;
+    height: 50px;
+    font-size: 16px;
+
+    cursor: pointer;
+    margin-top:3px;
+    margin:auto;
+  }
+  .SWBtnPBrd:hover{
+    background: #7f5feb;
+    color: #dfdeee;
+    border:none;
+  }

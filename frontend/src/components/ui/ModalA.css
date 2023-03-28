@@ -1,0 +1,106 @@
+.modalA {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modalA button {
+  outline: none;
+  cursor: pointer;
+  border: 0;
+}
+.modalA > section {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: modal-show 0.3s;
+  overflow: hidden;
+}
+/* .modalA > section > header { */
+  /* position: relative;
+  padding: 16px 64px 16px 56px;
+  background-color: #f1f1f1;
+  font-weight: 700;
+  text-align: center; */
+  /* margin-left: 40px; */
+/* } */
+.modalA > section > header button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  color: #999;
+  background-color: transparent;
+}
+.modalA > section > main {
+  padding: 10px 6px 10px 6px;
+  border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.modalA > section > main input {
+  width: 150px;
+  height: 30px;
+
+  padding: 5px;
+  /* font-size: 40px; */
+  border-radius: 7px;
+  border: 0.125rem solid black;
+  outline: none;
+}
+
+.modalA > section > main button {
+  background: #7f5feb;
+  color: #ffffff;
+  /* border: #7f5feb solid 2px; */
+  border-radius: 7px;
+
+  width: 70px;
+  height: 45px;
+  /* font-size: 16px; */
+  margin-left: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 0;
+}
+.modalA > section > main button:hover {
+  color: #7f5feb;
+  background: #ffffff;
+  border: #7f5feb solid 2px;
+}
+.modalA.openModal {
+  display: flex;
+  align-items: center;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: modal-bg-show 0.3s;
+}
+
+@keyframes modal-show {
+  from {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+@keyframes modal-bg-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,22 @@
+.XsWBtnKBrd {
+  border:0;
+  background: #ffffff;
+  color:  black;
+  border : black solid 2px;
+  border-radius: 10px;
+
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+
+  transition: 0.3s;
+  cursor: pointer;
+  display:block;
+  
+  margin-left: 10px;
+  }
+
+.XsWBtnKBrd:hover{
+  background: black;
+  color: #ffffff;
+  }

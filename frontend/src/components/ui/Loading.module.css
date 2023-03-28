@@ -1,0 +1,9 @@
+.Loading {
+  display: flex;
+  justify-content: center;
+  color:#5d33e6;
+}
+
+.black_loading{
+  color:black
+}

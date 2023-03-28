@@ -1,0 +1,38 @@
+
+.info_card {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  margin-left:5.5rem;
+  width: 618px;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.info_card img{
+  margin:0.6rem 0.5rem 0.5rem 0.6rem;
+  width:90px;
+  height: 120px;
+
+}
+.productinfo_item{
+  display: flex;
+  align-items: center;  
+}
+.productinfo_item_title{
+  margin-left: 2rem;
+  
+  display: block;
+  align-items: center;  
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.productinfo_item_title h3{
+  margin-bottom: 0;
+}
+.productinfo_item_title h4{
+  margin-top: 0.2rem;
+}
+.productinfo_item_price{
+  margin-left: 2rem;
+}

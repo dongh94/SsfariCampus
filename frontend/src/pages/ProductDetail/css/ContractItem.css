@@ -1,0 +1,76 @@
+.item_cardbox {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  width: 1050px;
+  height: 100%;
+  max-height: 260px;
+
+  border-radius: 5px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+  overflow: auto;
+}
+.item_card {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.name {
+  font-weight: 700;
+  width: 300px;
+}
+.color {
+  color: #7f5feb;
+}
+.process_margin {
+  margin-right: 200px;
+}
+.item_flex {
+  display: flex;
+}
+
+.item_hr {
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.join_btn {
+  border: 0;
+  background: #ffffff;
+  color: #7f5feb;
+  border: #7f5feb solid 2px;
+  border-radius: 10px;
+
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+}
+.join_btn:hover {
+  background: #5d33e6;
+  color: #ffffff;
+}
+.btn_flex {
+  display: flex;
+  align-items: center;
+}
+
+.type2::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* 스크롤바 막대 설정*/
+.type2::-webkit-scrollbar-thumb {
+  height: 17%;
+  background-color: #5d33e6;
+  border-radius: 10px;
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.type2::-webkit-scrollbar-track {
+  background-color: white;
+}

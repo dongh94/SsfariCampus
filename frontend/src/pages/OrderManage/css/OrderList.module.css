@@ -1,0 +1,15 @@
+.empty {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container_orderList {
+  width: 1080px;
+  /* padding: 0 3.2rem; */
+  margin: 0 auto;
+}
+.container_orderList h1 {
+  display: flex;
+  justify-content: first;
+  margin-left: 1rem;
+}

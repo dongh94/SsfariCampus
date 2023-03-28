@@ -1,0 +1,17 @@
+.LKBtn{
+    border:0;
+    background: black;
+    color: #dfdeee;
+    border-radius: 10px;
+    width:48%;
+    height: 49px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin:auto;
+    
+    display:block;
+}
+.LKBtn:hover {
+    background: grey;
+  }

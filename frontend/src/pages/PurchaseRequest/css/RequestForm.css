@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #7f5feb;
+  --white: #ffffff;
+  --gray: #efefef;
+
+
+}
+
+.request_inputgroup {
+  position: relative;
+  width: 100%;
+
+  display: block;
+text-align: center;
+}
+.request_inputgroup .shipping_add{
+  width: 35%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: var(--gray);
+  border-radius: 7px;
+  border: 0.125rem solid var(--white);
+  outline: none;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+  margin-right: 0.2rem;
+
+}
+
+.request_inputgroup .shipping_add_1{
+  width: 50%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: var(--gray);
+  border-radius: 7px;
+  border: 0.125rem solid var(--white);
+  outline: none;
+  margin-top: 0.8rem;
+  margin-left: 9.6rem;
+  margin-right: 0.2rem;
+
+}
+
+.add_search{
+  width: 119px;
+  height: 54.67px;
+}
+.request_inputgroup input {
+  width: 50%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: var(--gray);
+  border-radius: 7px;
+  border: 0.125rem solid var(--white);
+  outline: none;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+  margin-right: 0.2rem;
+
+}
+.request_inputgroup select{
+  width: 50%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: var(--gray);
+  border-radius: 7px;
+  border: 0.125rem solid var(--white);
+  outline: none;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+  margin-right: 0.2rem;
+}
+
+.request_inputgroup label {
+  display:inline-block;
+text-align: left;
+
+width:120px;
+font-weight:bold;
+}
+.request_inputgroup input:focus {
+  border: 0.125rem solid var(--primary-color);
+}

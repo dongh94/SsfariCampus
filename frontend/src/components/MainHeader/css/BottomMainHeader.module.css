@@ -1,0 +1,33 @@
+.justify_center{
+  display: flex; 
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.justify_center ul{
+  width: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.justify_center ul li{
+  white-space: nowrap;
+  text-align: center;
+}
+
+.justify_center_seller{
+  display: flex; 
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.justify_center_seller ul{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.justify_center_seller ul li{
+  white-space: nowrap;
+  text-align: center;
+}

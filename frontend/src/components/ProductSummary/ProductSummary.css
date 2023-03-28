@@ -1,0 +1,94 @@
+/* .product_summary_center{
+    display: flex;
+    justify-content: space-between;
+} */
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.product_summary_center{
+   padding-top:45px;
+}
+
+.product_summary img{
+    margin-top: 0px;
+    margin-left: 0;
+    width: 430px;
+    height: 552px;
+}
+.product_summary_de{
+    font-family: 'nanumsquare';
+    width: 560px;
+
+}
+.product_summary_de .product_main{
+    margin-top: 0rem;
+}
+
+.product_main .product_title{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.product_main .product_subtitle{
+    margin-top:0;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color:#B5B5B5
+}
+.product_main .product_price{
+    margin: 0px;
+    padding-top : 19px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #5d33e6;
+}
+
+.product_main .product_price_seller{
+    margin: 0px;
+    padding-top : 19px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+}
+.product_mini{
+    padding: 7px 0px 8px;
+    font-size: 14px;
+    color : #666666;
+    display: flex;
+    border-top: 1px solid rgb(244, 244, 244);
+}
+.product_mini_last{
+    padding: 7px 0px 8px;
+    font-size: 14px;
+    color : #666666;
+    display: flex;
+    border-top: 1px solid rgb(244, 244, 244);
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+.product_mini .product_label{
+    width: 80px;
+}
+.product_mini .product_content{
+    color : rgb(51, 51, 51);
+    width: 360px;
+    margin-left: 5rem;
+}
+.product_mini_last .product_label{
+    width: 80px;
+}
+.product_mini_last .product_content{
+    color : rgb(51, 51, 51);
+    width: 360px;
+    margin-left: 5rem;
+}
+.purchase_btn{
+    margin-left: 9rem;
+   
+}
+.purchase_btn1{
+    
+    width:  350px;
+}

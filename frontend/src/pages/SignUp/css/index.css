@@ -1,0 +1,17 @@
+
+.Login_container{
+  max-width: 50rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.Login_logo{
+  display:flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.logintitle{
+  background-image: url('../../../assets/Login.svg');
+  width: 300px;
+  height: 250px;
+}
+

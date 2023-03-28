@@ -1,0 +1,17 @@
+.BtnPTxt {
+  border: 0;
+  background-color: transparent;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 16px;
+
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+}
+.BtnPTxt:hover {
+  font-weight: bold;
+}

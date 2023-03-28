@@ -1,0 +1,39 @@
+.OrderItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px 10px 20px;
+}
+
+.OrderItem .OrderImg {
+  cursor: pointer;
+}
+.OrderItem .OrderImg .OrderImgSize {
+  width: 140px;
+
+  height: 160px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+.OrderItem .OrderTitle {
+  width: 400px;
+  /* margin-right: 10rem; */
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.OrderName {
+  font-size: 20px;
+  font-weight: bold;
+}
+.OrderCheck {
+  width: 80px;
+}
+.OrderStatus {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  /* color: #7f5feb; */
+  font-weight: bold;
+}
